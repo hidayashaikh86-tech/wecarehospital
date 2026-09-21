@@ -1,0 +1,6 @@
+{
+  "name": "WeCare Hospitals",
+  "description": "Advanced healthcare services, appointment booking, and specialist directory presented in a clean minimalist layout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

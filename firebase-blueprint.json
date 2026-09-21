@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "users": {
+      "title": "Users",
+      "description": "User profiles",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "phone": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["uid", "email", "createdAt"]
+    },
+    "appointments": {
+      "title": "Appointments",
+      "description": "Patient medical appointments",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "patientName": { "type": "string" },
+        "patientPhone": { "type": "string" },
+        "patientEmail": { "type": "string" },
+        "departmentName": { "type": "string" },
+        "doctorName": { "type": "string" },
+        "date": { "type": "string" },
+        "timeSlot": { "type": "string" },
+        "notes": { "type": "string" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["userId", "patientName", "patientPhone", "departmentName", "doctorName", "date", "timeSlot", "status", "createdAt"]
+    }
+  }
+}
